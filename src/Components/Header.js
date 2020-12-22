@@ -36,7 +36,7 @@ const SLink = styled(Link)`
   justify-content: center;
  `;
 
-const Topbar = ({ location: { pathname } }) => (
+const TopBar = ({ location: { pathname } }) => (
   <Header>
     <List>
       <Item current={pathname === "/"}>
@@ -52,4 +52,4 @@ const Topbar = ({ location: { pathname } }) => (
   </Header>
 );
 
-export default withRouter(Topbar);
+export default withRouter(TopBar);
