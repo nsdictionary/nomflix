@@ -58,6 +58,7 @@ const Poster = ({ id, imageUrl, title, rating, year, isMovie = false }) => (
               : "/noPosterSmall.png"
           }
         />
+
         <Rating>
           <span role="img" aria-label="rating">
             ⭐️
