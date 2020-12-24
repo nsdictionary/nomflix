@@ -20,9 +20,6 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, loading, error }) => (
       <Loader />
     ) : (
       <Container>
-        <Helmet>
-          <title>Movies | Nomflix</title>
-        </Helmet>
         {nowPlaying && nowPlaying.length > 0 && (
           <Section title="Now Playing">
             {nowPlaying.map((movie) => (
